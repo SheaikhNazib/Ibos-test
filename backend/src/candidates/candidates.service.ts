@@ -1,0 +1,8 @@
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class CandidatesService {
+  findAll() {
+    return { message: 'Candidates module is ready' };
+  }
+}

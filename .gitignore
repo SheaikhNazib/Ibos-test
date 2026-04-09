@@ -1,2 +1,17 @@
-backend/
-frontend/
+# Node modules and build outputs
+node_modules/
+dist/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
